@@ -1,0 +1,37 @@
+.mce-toolbar i.mce-i-gt_filter_gallery_tinymce_button {
+	color: orange;
+	background: url('../images/gt-btn-icon.png') no-repeat center center;
+	background-size: cover;
+}
+.mce-floatpanel.mce-window {
+	height: 500px; overflow: hidden;
+}
+.mce-gt-slider-popup .mce-container-body > .mce-container.mce-abs-layout-item {
+    position: static !important;
+    display: block;
+    padding: 10px 7px;
+}
+
+/*color picker css*/
+.mce-container .wp-picker-container { display: inline-block; margin: 10px; }
+.mce-container .wp-picker-input-wrap input.mce-colorpicker {
+	width: 65px !important;
+	position: static !important;
+	float: left;
+	margin: 0;
+	line-height: 1;
+}
+.mce-container .wp-color-result {
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 #ccc;
+	cursor: pointer;
+	display: inline-block;
+	height: 22px;
+	margin: 0 6px 6px 0;
+	padding-left: 30px;
+	position: relative;
+	top: 1px;
+	vertical-align: bottom;
+}
